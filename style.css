@@ -8,7 +8,7 @@ html {
     left: 1%;
     width: 5%; 
     height: 92.1%; 
-    background-color: rgb(255, 157, 212);
+    background-color: rgb(148, 210, 254);
     border-radius: 15px;
 }
 
@@ -29,23 +29,34 @@ html {
 }
 
 .win {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    position: relative;
     background-color: rgb(221, 130, 241);
     margin: 1% 1%; 
-    padding: 19.5%;
+    padding: 21.9%;
     border-radius: 15px;
     
 }
 
 .pt{
     display: inline;
-    background-color: red;
-    position: relative;
-    justify-content: center;
-    height: 100%;
-    align-content: center;
-    /* width: 100%;
-    text-align: center; */
+    background-color: rgb(148, 210, 254);
+    position: absolute;
+    top: 0;
+    left: 1%;
+    width: 98%;
+    margin: 1% 0;
+    text-align: center;
+    border-radius: 15px; 
+}
+
+.cr{
+    background-color: rgb(148, 210, 254);
+    display: inline;
+    position: absolute;
+    top: 16%;
+    width: 98%;
+    text-align: center;
+    left: 1%;
+    border-radius: 15px;
+    padding: 18% 0;
 }
